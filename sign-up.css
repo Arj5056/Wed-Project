@@ -11,10 +11,14 @@ form {
     margin: auto;
 }
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+.username {
     height: 2.5vw;
     border-radius: 8px;
-    width: 100%;
+    width: 99%;
+}
+.username {
+    margin-bottom: 1vw;
 }
 input[type="email"]{
     margin-bottom: 1vw;

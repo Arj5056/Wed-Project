@@ -3,13 +3,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
     <link rel="stylesheet" href="sign-up.css">
+    <link rel="icon" href="icon/icon.png">
 </head>
 <body>
     <a href="#" class="website-title"><h1>Tastadoo</h1></a>
     <form autocomplete="off">
-        <input type="email" placeholder="Enter email">
-        <input type="password" class="password" placeholder="Enter password">
-        <input type="password" class="confirm-password" placeholder="Re-Enter password">
+        <input type="text" class="username" placeholder="Enter username" maxlength="10" required>
+        <input type="email" placeholder="Enter email" required>
+        <input type="password" class="password" placeholder="Enter password" required>
+        <input type="password" class="confirm-password" placeholder="Re-Enter password" required>
         <p>Role:</p>
         <input type="radio" name="role" id="admin">
         <label for="admin">Admin</label>
