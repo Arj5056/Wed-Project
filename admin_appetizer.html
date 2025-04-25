@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastadoo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="appetizestyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200..1000&family=Permanent+Marker&family=Roboto+Mono:wght@100..700&display=swap">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/rating.css">
+    <script src="rt.js"></script>
+   
+</head>
+
+<body>
+     <!-- nav bar Section  -->
+   
+     <section class="Appetizer">
+        <div class="sub-nav">
+            <div class="container">
+              <div class="nav-header">
+                <div class="nav-logo-toggle">
+                    <a class="logo" href="">Tastadoo</a>
+                    <div class="menu-toggle">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </div>
+                <div class="nav-menu">
+                    <ul class="main-menu">
+                  <li><a href="admin_index.html">Home</a></li>
+                  <li><a href="admin_maindish.html">Main Dish</a></li>
+                  <li><a href="admin_dessert.html">Dessert</a></li>
+                  <li><a href="admin_appetizer.html">Appetizer</a></li>
+                  <li><a href="admin_blog.html">Blog</a></li>
+                  <li><a href="manege_recipe.html">Manage Recipes</a></li>
+                  <li><a href="sign-up.html"><i class="fa-regular fa-user"></i></a></li>
+                  <li>
+                    <div class="search-bar">
+                        <i class="fa fa-search search-icon"></i>
+                        <input type="text" id="searchInput" placeholder="Search recipes...">
+                    </div>
+                </li>
+            </ul>
+        </div>
+      </div>
+      </div>
+</section>
+
+
+
+    <section class="home-content-bg">
+        <div class="sub-content">
+            <div class="container">
+                <div class="content">
+                    <div class="content-cards-details">
+                        </div>
+                        <h2>Appetizers</h2>
+                                          
+                    <div class ="content-cards">
+                        <!--Recipe 1-->
+                        <div class="card">
+                            <div class="rating-trigger">★</div>
+                            <div class="img-card">
+                                <a href="crostini.html"><img src="img/ToastedCrostini.jpg"></a>
+                            </div>
+                            <div class="card-content">
+                                <i class="fa-regular fa-heart Hicon" onclick="addToFavorites(event)"></i>
+                                <p>Appetizers</p>
+                                <a href="crostini.html">Basil Bruschetta on Toasted Crostini</a>
+                                <div class="rating-display-bottom" data-recipe="Basil Bruschetta on Toasted Crostini"></div>
+                            </div>
+                      
+                   </div>
+                        <!--Recipe 2-->
+
+    
+                            <div class="card">
+                                <div class="rating-trigger">★</div>
+                                
+                                <div>
+                                    <div class="img-card">
+                                        <a href="Labneh dip.html dip.html"><img src="img/lebanese.jpg"></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <i class="fa-regular fa-heart Hicon" onclick="addToFavorites(event)"></i>
+                                        <p>Appetizers</p>
+              
+                                        <a href="Labneh dip.html">labneh dip</a>
+                                        <div class="rating-display-bottom" data-recipe="basil-bruschetta"></div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!--Recipe 3-->
+
+
+                            <div class="card">
+                                <div class="rating-trigger">★</div>
+                                <div>
+                                    <div class="img-card">
+                                        <a href="Tomato and Burrata Salad.html"><img src="img/Tomato Burrata Salad.jpeg"></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <i class="fa-regular fa-heart Hicon" onclick="addToFavorites(event)"></i>
+                                        <p>Side dish</p>
+                                        <a href="Tomato and Burrata Salad.html">Tomato and Burrata Salad</a>
+                                        <div class="rating-display-bottom" data-recipe="basil-bruschetta"></div>
+                                    </div>
+                                </div>
+                                </div>    
+                                 <!--Recipe 4-->    
+        
+                            <div class="card">
+                                <div class="rating-trigger">★</div>
+                                <div>
+                                    <div class="img-card">
+                                        <a href="Grilled.html"><img src="img/Grilled Beef Tenderloin Crostini with Béarnaise Sauce.jpeg"></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <i class="fa-regular fa-heart Hicon" onclick="addToFavorites(event)"></i>
+                                        <p>Appetizers</p>
+                                        <a href="Grilled.html">Grilled Beef Tenderloin Crostini with Béarnaise Sauce</a>
+                                        <div class="rating-display-bottom" data-recipe="basil-bruschetta"></div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!--Recipe 5-->
+
+                            <div class="card">
+                                <div class="rating-trigger">★</div>
+                                <div>
+                                    <div class="img-card">
+                                        <img src="img/spanish.webp">
+                                    </div>
+                                    <div class="card-content">
+                                        <i class="fa-regular fa-heart Hicon" onclick="addToFavorites(event)"></i>
+                                        <p>Side dish</p>
+                                        <a href="Patatas Bravas.html">Patatas Bravas</a>
+                                        <div class="rating-display-bottom" data-recipe="basil-bruschetta"></div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!--Recipe 6-->
+                            <div class="card">
+                                <div class="rating-trigger">★</div>
+                                <div>
+                                    <div class="img-card">
+                                        <img src="img/Creamy Bruschetta Appetizer Bites.jpeg">
+                                    </div>
+                                    <div class="card-content">
+                                        <i class="fa-regular fa-heart Hicon" onclick="addToFavorites(event)"></i>
+                                        <p>Appetizers</p>
+                                        <a href="Creamy.html">Creamy Bruschetta Bites</a>
+                                        <div class="rating-display-bottom" data-recipe="basil-bruschetta"></div>
+                                    </div>
+                                </div>
+                                </div>
+                                 <!--Recipe 7-->
+                        
+                                <div class="card">
+                                    <div class="rating-trigger">★</div>
+                                    <div class="img-card">
+                                        <img src="img/Cheese and Cranberry.jpeg">
+                                    </div>
+                                    <div class="card-content">
+                                        <i class="fa-regular fa-heart Hicon" onclick="addToFavorites(event)"></i>
+                                        <p>Appetizers</p>
+                                        <a href="Cheese and Cranberry.html">Cheese and Cranberry</a>
+                                        <div class="rating-display-bottom" data-recipe="basil-bruschetta"></div>
+                                    </div>
+                                </div>
+                                 <!--Recipe 8-->
+                            <div class="card">
+                                <div class="rating-trigger">★</div>
+                                <div>
+                                    <div class="img-card">
+                                      <img src="img/Cranberry Brie Bites - Frau Virtin.jpeg">
+                                    </div>
+                                    <div class="card-content">
+                                        <i class="fa-regular fa-heart Hicon" onclick="addToFavorites(event)"></i>
+                                        <p>Appetizers</p>
+                                        <a href="Cranberry.html">Cranberry Brie Bites</a>
+                                        <div class="rating-display-bottom" data-recipe="basil-bruschetta"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        <!--end section-->
+                            <hr color="white">
+                            <br></br>
+                        <!-- Change the down-card classes to be consistent -->
+                        <div class="content-cards-down">
+                            <div class="down-card-1" style="background-image: url('img/Chef.jpeg');">
+                                <div class="card-content-down">
+                                    <h1>Cooking Tips & Fun Facts</h1>
+                                    <h2>Did you know?</h2>
+                                    <p>
+                                        Adding just a pinch of salt to baked goods like cookies or cakes doesn't make them salty—it actually intensifies sweetness and balances flavor?<br><br>
+                                        Salt plays a key role in enhancing your dessert's complexity.<br><br>
+                                        <strong>It's a baker's secret weapon!</strong>
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="down-card-2" style="background-image: url('img/Flying food - Carla A McMahon.jpeg');">
+                                <div class="card-content-down">
+                                    <h1>A kitchen is a lab of love. Every recipe is an experiment worth trying ...</h1>
+                                    <p>You don't need to be a professional chef to create something amazing. Just start. Adjust. Taste. Learn.</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                                
+                                
+                                
+                                
+
+
+                
+        
+        </section>
+                            
+                
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-columns">
+                    <div class="footer-column">
+                        <h3>About Tastadoo</h3>
+                        <p>Your go-to destination for delicious recipes from around the world.</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="maindish.html">Recipes</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Connect With Us</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 Tastadoo. All rights reserved.</p>
+                </div>
+            </div>
+          </footer>
+                            
+
+                                            
+                                            
+
+          <script src="js/rating.js"></script>                             
+          <script src="js/script.js"></script>      
+</body>
+</html>
